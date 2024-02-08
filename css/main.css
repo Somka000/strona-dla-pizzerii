@@ -1,0 +1,152 @@
+.glownastrona {
+  background-color: rgba(255, 255, 255, 0.4); 
+  border-radius: 20px;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+.sg {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.5); 
+  padding: 5px 50px;
+  border-radius: 20px;
+  justify-content: center; 
+}
+header nav {
+  background-color: #333;
+
+}
+.rejestracja {
+  margin-left: auto;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  nav.glownastrona {
+    background-color: #333;
+    padding: 20px 10px;
+    width: 80%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.glownastrona ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.glownastrona ul li {
+    display: inline;
+    margin: 0 10px;
+}
+footer .copyright {
+  text-align: start;
+}
+
+nav.glownastrona ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+}
+header nav ul li {
+  margin: 0 20px;
+  white-space: nowrap;
+
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.non {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.copyright {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: lightgray;
+  padding: 10px;
+}
+.non:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ramka {
+    background-color: lightgray;
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block;
+}
+  header nav ul li {
+    margin: 11px 0;
+  }
+}
+
+body {
+  background: url("../zdjecia/oferta_pizza.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.blur {
+  background: url("../zdjecia/oferta_pizza.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  filter: blur(13px);
+  position: absolute;
+  height: 300px;
+  top: -50px;
+  left: -50px;
+  right: -50px;
+  bottom: -50px;
+}
+
+.widget {
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

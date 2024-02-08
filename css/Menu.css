@@ -1,0 +1,19 @@
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  background-image: "../zdjecia/oferta_pizza.jpg";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .order {
+    margin-top: 100px;
+  }
+}
